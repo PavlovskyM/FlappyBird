@@ -93,7 +93,7 @@ public class FlappyBird implements ActionListener, MouseListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        int speed = 10;
+        int speed = 15;
         ticks++;
 
         if (started) {
